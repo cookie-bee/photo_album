@@ -53,8 +53,8 @@ export default class Constants {
   static readonly IMG_ARR: Resource[][] = [
     [...Constants.FOOD_LIST,...Constants.DUDUDA_LIST,...Constants.EMOJI_LIST,...Constants.FLOWER_LIST],
     [...Constants.DUDUDA_LIST,...Constants.EMOJI_LIST,...Constants.FLOWER_LIST],
-    [...Constants.FOOD_LIST,...Constants.EMOJI_LIST,...Constants.FLOWER_LIST],
-    [...Constants.FOOD_LIST,...Constants.DUDUDA_LIST,...Constants.FLOWER_LIST]
+    [...Constants.EMOJI_LIST,...Constants.FOOD_LIST,...Constants.FLOWER_LIST],
+    [...Constants.FLOWER_LIST,...Constants.DUDUDA_LIST,...Constants.FOOD_LIST]
   ]
 
   //标题字体粗细

@@ -27,7 +27,7 @@ export default struct PhotoItem {
   }
 
   build() {
-    Stack({alignContent:Alignment.Top})        //设置堆叠模式
+    Stack({alignContent:Alignment.Top})        //设置堆叠模式(一种立体感的感觉（）)
     {
       ForEach(Constants.CACHE_IMG_LIST,(img: string,index: number)=>{
         this.albumPicBuilder(this.photoArr[this.showCount- (index || 0) -1],index) //调用函数进行图片渲染
